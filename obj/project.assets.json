@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julia\\idk\\torneos\\torneos.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\Proyecto_Torneos\\torneos.csproj",
       "projectName": "torneos",
-      "projectPath": "C:\\Users\\julia\\idk\\torneos\\torneos.csproj",
+      "projectPath": "C:\\Users\\julia\\Proyecto_Torneos\\torneos.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julia\\idk\\torneos\\obj\\",
+      "outputPath": "C:\\Users\\julia\\Proyecto_Torneos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace torneos.Domain.Enities
+namespace Proyecto_Torneos.src.Modules.Torneos.Application.Repositories
 {
-    public class Persona
+    public class TorneoRepository
     {
         
     }
