@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Proyecto_Torneos.src.Modules.Torneos.Application.Repositories
+namespace Proyecto_Torneos.src.Modules.Torneos.UI
 {
-    public class TorneoRepository
+    public class MenuTorneo
     {
         
     }
