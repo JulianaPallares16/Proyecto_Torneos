@@ -1,4 +1,5 @@
-﻿
+﻿using Proyecto_Torneos.src.Modules.Torneos.UI;
+using Proyecto_Torneos.src.Shared.Helpers;
 
 bool salir = false;
 while (!salir)
