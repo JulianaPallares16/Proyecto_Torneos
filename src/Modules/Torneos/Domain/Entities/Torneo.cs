@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Proyecto_Torneos.src.Modules.Equipos.Domain.Enities;
 
 namespace Proyecto_Torneos.src.Modules.Torneos.Domain.Enities
 {
@@ -12,5 +13,6 @@ namespace Proyecto_Torneos.src.Modules.Torneos.Domain.Enities
         public string? Tipo { get; set; } = string.Empty;
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
+        public ICollection<Equipo>? Equipos { get; set; }
     }
 }

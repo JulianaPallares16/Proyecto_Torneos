@@ -1,6 +1,8 @@
 ﻿using Proyecto_Torneos.src.Modules.Torneos.UI;
 using Proyecto_Torneos.src.Shared.Helpers;
 
+var context = DbContextFactory.Create();
+
 bool salir = false;
 while (!salir)
 {
@@ -27,6 +29,7 @@ while (!salir)
         switch (opcion)
         {
             case "1":
+                await new MenuTorneo(context).RenderMenu();
                 break;
             case "2":
                 break;
