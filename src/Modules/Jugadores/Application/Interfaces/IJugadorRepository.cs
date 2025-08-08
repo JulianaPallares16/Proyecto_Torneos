@@ -12,6 +12,6 @@ public interface IJugadorRepository
     Task<IEnumerable<Jugador?>> GetAllAsync();
     void Add(Jugador jugador);
     void Eliminar(Jugador jugador);
-    void Actualizar(Jugador jugador);
+    void Editar(Jugador jugador);
     Task SaveAsync();
 }

@@ -16,7 +16,7 @@ public class TorneoService : ITorneoService
     }
     public Task<IEnumerable<Torneo>> ConsultaTorneoAsync()
     {
-        return _repo.GetAllAsync();
+        return _repo.GetAllAsync()!;
     }
     public async Task RegistrarTorneo(string nombre, string tipo, DateTime fechaInicio, DateTime fechaFin)
     {
